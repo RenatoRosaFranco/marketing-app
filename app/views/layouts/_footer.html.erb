@@ -1,0 +1,77 @@
+<footer>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-12'>
+        <div class='col-md-3'>
+          <h3>MARKETING APP</h3>
+          <p>Somos uma agência de marketing
+          Digital de Performance que trabalha para
+          melhorar o resultado da sua empresa por
+          meio do marketing digital.
+          </p>
+        </div>
+
+        <div class='col-md-3'>
+          <h3>Serviços</h3>
+          <ul class='list-unstyled'>
+            <li><%= link_to 'Planejamento e Estratégia', '' %></li>
+            <li><%= link_to 'Inbound Marketing', '' %></li>
+            <li><%= link_to 'Marketing de Conteúdo','' %></li>
+            <li><%= link_to 'Automação de marketing', '' %></li>
+            <li><%= link_to 'SEO', '' %></li>
+            <li><%= link_to 'Mídia Paga', '' %></li>
+            <li><%= link_to 'Business Intelligence', '' %></li>
+            <li><%= link_to 'Social Media', '' %></li>
+            <li><%= link_to 'Desenvolvimento', '' %></li>
+          </ul>
+        </div>
+
+        <div class='col-md-2'>
+          <ul class='list-unstyled'>
+            <li><%= link_to 'Empresa', '' %></li>
+            <li><%= link_to 'Metodologia', '' %></li>
+            <li><%= link_to 'Serviços', '' %></li>
+            <li><%= link_to 'Blog', '' %></li>
+            <li><%= link_to 'Contato', '' %></li>
+          </ul>
+        </div>
+
+        <div class='col-md-4'>
+          <div id='facebook-box'>
+            <div class='well'>
+            </div>
+          </div>
+          
+          <ul class='list-unstyled'>
+            <li>
+              <%= link_to 'https://facebook.com/', target: '_blank' do %>
+                <i class="fab fa-facebook-f"></i>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to 'https://instagram.com/', target: '_blank' do %>
+                <i class="fab fa-instagram"></i>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to 'https://linkedin.com/', target: '_blank' do %>
+                <i class="fab fa-linkedin-in"></i>
+              <% end %>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id='copyright'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-12'>
+          <p>&copy <%= Date.today.year %> - Marketing de Performance. 
+          Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
