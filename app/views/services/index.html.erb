@@ -1,0 +1,192 @@
+<% provide :title, 'Serviços' %>
+<% provide :description, '' %>
+<% provide :keywords, '' %>
+<% provide :ld_json, {
+  "@context": "https://schema.org/"
+} %>
+
+<section id='content'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-12'>
+        <div class='row'>
+          <div class='col-md-12 text-center'>
+            <h2>Serviços</h2>
+            <hr>
+            <p>Todos os serviços oferecidos pela (x) trabalham juntos e em
+            harmonia em prol do mesmo<br> objetivo: performance. Confira as nossas
+            principais áreas de atuação.
+            </p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-4 text-center'>
+            <%= image_tag('', class: '') %>
+            <h4>Planejamento e estratégia</h4>
+            <hr>
+            <p>Criação de publico alvo, persona, 
+            jornada de compra e dos funis de marketing
+            e vendas. Além disso, para cada um dos canais
+            (midia paga, marketing de conteudo, etc). há a
+            montagem especifica de uma estratégia e sua 
+            implementação.
+            </p>
+            <br>
+
+            <%= link_to strategy_service_path, 
+              class: 'btn btn-primary btn-lg top' do %>
+              Ver Mais
+            <% end %>
+          </div>
+
+          <div class='col-md-4 text-center'>
+            <%= image_tag('', class: '') %>
+            <h4>Inbound Marketing</h4>
+            <hr>
+            <p>Consultoria de Inbound ou criação e
+            execução de estratégia que, por meio de 
+            produção e distribuição de conteudo, 
+            atrai visitantes, converte e nutre leads
+            enquanto estes descem pelo funil de marketing
+            e vendas.
+            </p>
+            <br>
+
+            <%= link_to inbound_marketing_service_path, 
+              class: 'btn btn-primary btn-lg top' do %>
+              Ver Mais
+            <% end %></5>
+          </div>
+
+          <div class='col-md-4 text-center'>
+            <%= image_tag('', class: '') %>
+            <h4>Mídia Paga</h4>
+            <hr>
+            <p>Gestão de campanhas pagas em
+            Google Ads, Linkedin Ads, Twitter Ads,
+            Facebook Ads, Instagram Ads, entre outros.
+            Utilizando essas estratégias o cliente começa
+            a se posicionar em uma campanha always on, que é
+            indispensável nos dias de hoje.
+            </p>
+            <br>
+
+            <%= link_to paid_midia_service_path, 
+              class: 'btn btn-primary btn-lg top' do %>
+              Ver Mais
+            <% end %>
+          </div>
+
+          <div class='col-md-4 text-center'>
+            <%= image_tag('', class: '') %>
+            <h4>Marketing de Conteúdo</h4>
+            <hr>
+            <p>Análise de palavras-chave e 
+            concorrentes, definição de pautas, publicação
+            e otimização de artigos, criação de matériais 
+            ricos como infográficos e e-books -- tudo elaborado
+            com foco em educar o lead ideal de nosso cliente
+            </p>
+            <br>
+
+            <%= link_to content_marketing_service_path,
+              class: 'btn btn-primary btn-lg top' do %>
+              Ver Mais
+            %<% end %>
+          </div>
+          
+          <div class='col-md-4 text-center'>
+            <%= image_tag('', class: '') %>
+            <h4>SEO</h4>
+            <hr>
+            <p>Otimização On e Off page para sites,
+            blog e e-commerces, consultoria de SEO.
+            Todo o trabalho é pensado em fazer com 
+            que as páginas de nossos clients estejam
+            cada vez mais em evidência nos mecanismos
+            de busca.
+            </p>
+            <br>
+
+            <%= link_to seo_service_path,
+              class: 'btn btn-primary btn-lg top' do %>
+              Ver Mais
+          <% end %>
+          </div>
+
+          <div class='col-md-4 text-center'>
+            <%= image_tag('', class: '') %>
+            <h4>Automação de marketing</h4>
+            <hr>
+            <p>Higienização de mailing, criação de
+            newsletter e fluxos de nutrição, gerenciamento
+            de ferramentas de automação como RD Station
+            (trabalhamos com outras ferramentas também),
+            criação e otimização de landing-pages. CTA's
+            e formulários.
+            </p>
+
+            <%= link_to marketing_automation_service_path, 
+              class: 'btn btn-primary btn-lg top' do %>
+              Ver Mais
+          <% end %>
+          </div>
+
+          <div class='col-md-4 text-center'>
+            <%= image_tag('', class: '') %>
+            <h4>Social Media</h4>
+            <hr>
+            <p>Fazemos toda a parte  de gestão e
+            planejamento de mídias sociais, community
+            management e SAC 2.0. Além disso, também
+            oferecemos uma consultoria de resultados e
+            elaboramos um cronograma de postagem.
+            </p>
+
+            <%= link_to social_media_service_path,
+              class: 'btn btn-primary btn-lg top' do %>
+              Ver Mais
+          <% end %>
+          </div>
+
+          <div class='col-md-4 text-center'>
+            <%= image_tag('', class: '') %>
+            <h4>Business Inteligence</h4>
+            <hr>
+            <p>Temos uma cultura data-driver e 
+            acreditamos que o BI é indispensavel
+            para qualquer estratégia. Para otimizar
+            serviços e garantir as melhores entregas
+            de resultados, fazemos Dashboards Automatizados,
+            traqueamentos, análises e otimizações.
+            </p>
+
+            <%= link_to business_intelligence_service_path,
+              class: 'btn btn-primary btn-lg top' do %>
+              Ver Mais
+          <% end %>
+          </div>
+
+          <div class='col-md-4 text-center'>
+            <%= image_tag('', class: '') %>
+            <h4>Desenvolvimento</h4>
+            <hr>
+            <p>Criação de sites, blogs, e-commerces
+            (em Wordpress ou outras plataformas),
+            otimização e melhoria de performance de páginas.
+            Além disso, fazemos também o redesign de páginas
+            e análises recorrentes para garantir o melhor
+            desempenho.
+            </p>
+
+            <%= link_to development_service_path, 
+              class: 'btn btn-primary btn-lg top' do %>
+              Ver Mais
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+<% provide :title, 'Contato' %>
+<% provide :description, '' %>
+<% provide :keywords, '' %>
+<% provide :ld_json, {
+  "@context": "https://schema.org/"
+} %>
+
+<section id='content'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-12'>
+        
+        <div class='row'>
+          <%= render 'form', contact: @contact %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

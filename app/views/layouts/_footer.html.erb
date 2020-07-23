@@ -14,47 +14,51 @@
         <div class='col-md-3'>
           <h3>Serviços</h3>
           <ul class='list-unstyled'>
-            <li><%= link_to 'Planejamento e Estratégia', '' %></li>
-            <li><%= link_to 'Inbound Marketing', '' %></li>
-            <li><%= link_to 'Marketing de Conteúdo','' %></li>
-            <li><%= link_to 'Automação de marketing', '' %></li>
-            <li><%= link_to 'SEO', '' %></li>
-            <li><%= link_to 'Mídia Paga', '' %></li>
-            <li><%= link_to 'Business Intelligence', '' %></li>
-            <li><%= link_to 'Social Media', '' %></li>
-            <li><%= link_to 'Desenvolvimento', '' %></li>
+            <li><%= link_to 'Planejamento e Estratégia', strategy_service_path %></li>
+            <li><%= link_to 'Inbound Marketing', inbound_marketing_service_path %></li>
+            <li><%= link_to 'Marketing de Conteúdo', content_marketing_service_path %></li>
+            <li><%= link_to 'Automação de marketing', marketing_automation_service_path %></li>
+            <li><%= link_to 'SEO', seo_service_path %></li>
+            <li><%= link_to 'Mídia Paga', paid_midia_service_path %></li>
+            <li><%= link_to 'Business Intelligence', business_intelligence_service_path %></li>
+            <li><%= link_to 'Social Media', social_media_service_path %></li>
+            <li><%= link_to 'Desenvolvimento', development_service_path %></li>
           </ul>
         </div>
 
         <div class='col-md-2'>
           <ul class='list-unstyled'>
-            <li><%= link_to 'Empresa', '' %></li>
-            <li><%= link_to 'Metodologia', '' %></li>
-            <li><%= link_to 'Serviços', '' %></li>
-            <li><%= link_to 'Blog', '' %></li>
-            <li><%= link_to 'Contato', '' %></li>
+            <li><%= link_to 'Empresa', company_path %></li>
+            <li><%= link_to 'Metodologia', methodology_path %></li>
+            <li><%= link_to 'Serviços', services_path %></li>
+            <li><%= link_to 'Blog', blog_posts_path %></li>
+            <li><%= link_to 'Contato', contact_path %></li>
           </ul>
         </div>
 
         <div class='col-md-4'>
           <div id='facebook-box'>
             <div class='well'>
+              <!-- facebook page presenter -->
             </div>
           </div>
           
           <ul class='list-unstyled'>
             <li>
-              <%= link_to 'https://facebook.com/', target: '_blank' do %>
+              <%= link_to 'https://facebook.com/', 
+                target: '_blank' do %>
                 <i class="fab fa-facebook-f"></i>
               <% end %>
             </li>
             <li>
-              <%= link_to 'https://instagram.com/', target: '_blank' do %>
+              <%= link_to 'https://instagram.com/', 
+                target: '_blank' do %>
                 <i class="fab fa-instagram"></i>
               <% end %>
             </li>
             <li>
-              <%= link_to 'https://linkedin.com/', target: '_blank' do %>
+              <%= link_to 'https://linkedin.com/', 
+                target: '_blank' do %>
                 <i class="fab fa-linkedin-in"></i>
               <% end %>
             </li>
